@@ -1,0 +1,45 @@
+section:first-of-type{
+  background: linear-gradient(60deg ,#3c9 50%, #00f 50%);
+  /* you can also include more than one color...the deg is the degree at which the pictures are showing */
+  /* to divide the pictures(to prevent them from mixing into each other add a percentage */
+  background: linear-gradient(90deg ,green 33%, #fff 33% , #fff 67% , green 67% );
+  /* nigerian flag,,,green white green */
+  /* when you put a negative sign in the degree it indicates that you want to reverse the color(latter should come before the former) */
+  background-image: linear-gradient(to top right,yellow 45%, crimson 45%);
+  /* to top== is an equivalent of saying -180
+  to bottom== is an equivalent os saying 180
+  to left== is 90deg
+  to top right
+  to top left
+  to bottom right
+  to bottom left
+  all these can be used in place of degree */
+  
+}
+
+section:nth-of-type(2){
+  background: radial-gradient(circle, crimson 20% ,violet 20% );
+  /* this is used for circular degin and circle id the only shape attribute you can to radial gradient */
+}
+
+section:nth-of-type(3){
+  color: transparent;
+  background: conic-gradient(
+    purple 15%,
+    khaki 15%,
+    khaki 40%,
+    fuchsia 40%,
+    fuchsia 60%,
+    tomato 60%,
+    tomato 65%,
+    skyblue 75%,
+    skyblue 85%,
+    green 85%
+ );
+ -webkit-background-clip: text;
+ /* this simply means you cliped the colors on the background to the text */
+}
+
+aside{
+  background: repeating-linear-gradient(30deg, red 8%, violet 10%)
+}

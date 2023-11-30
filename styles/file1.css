@@ -1,0 +1,54 @@
+/* cascading and specificity */
+ main h1{
+  color: lightblue;
+  color: lightpink;
+  /* according to csscading rule,pink will be the applied to h1 cos its the last color applied to h1 */
+}
+body > h1{
+  color: green;
+}
+.one{
+  font-size: 50px;
+  color: yellow;
+}
+h2.one{
+  color:green ;
+}
+section .one{
+  font-size: 50px;
+  color: yellow; 
+}
+/* pseudo classes are denoted with a colon */
+
+ul li{
+  margin-top: 30px;
+}
+ul li{
+  border: 10px double green;
+}
+ul :first-child, ul :last-child{
+  border: 10px double lightpink;
+}
+
+ul>:nth-child(even){
+  border: 10px double lightskyblue;
+}
+/* > signifies direct child selector whioe space signifies all children selector */
+
+ul>:nth-child(odd){
+  border: 10px ridge lightskyblue;
+}
+
+ul>:nth-child(n+3){
+  border: 10px dotted lightskyblue;
+  /* means the style is going to start from the third */
+}
+ul>:nth-child(2n+5){
+  border: 10px double lightskyblue;
+  }
+
+li:first-of-type{
+background-color: khaki;
+}
+/* means the first type of li shoukd have a background color of khaki */
+  

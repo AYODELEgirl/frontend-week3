@@ -1,0 +1,18 @@
+section:first-of-type{
+   background:linear-gradient(to bottom, red 30%, white 30%, white 35%, blue 35%, blue 65%, white 65%, white 70%, green 70%) ; 
+}
+section:nth-of-type(2){
+  background: linear-gradient(to bottom, green 33%, rgba(213, 213, 10) 33%, rgb(213, 213, 10) 66%, blue 66%);
+}
+section:nth-of-type(3){
+  background: linear-gradient(90deg ,green 33%, #fff 33% , #fff 67% , green 67% );
+}
+section:nth-of-type(4){
+  background: radial-gradient(circle, red 20% ,white 20% );
+}
+section:nth-of-type(5){
+  background: linear-gradient(90deg, black 33%, yellow 33%, yellow 67%, red 67%);
+}
+section:last-of-type{
+  background: linear-gradient(90deg, rgb(5,5,72) 33%, white 33%, white 67%, red 67%);
+}

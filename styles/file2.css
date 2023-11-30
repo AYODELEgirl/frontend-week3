@@ -1,0 +1,24 @@
+*{
+  border-right: 5px dashed lightslategray;
+  border-left: 5px dashed lightslategray;
+
+}
+
+h1{
+  color: lightseagreen;
+}
+p{
+  background-color: lightskyblue;
+}
+
+
+h2 + p{
+  background-color: lightgray;
+  /* this simply aplies this color with to the first p after each h2 */
+}
+
+h2 ~ p{
+  background-color: lightsalmon;
+  /* this will simply give all siblings of h2 this color */
+}
+ 
