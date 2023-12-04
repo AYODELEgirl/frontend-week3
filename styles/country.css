@@ -13,6 +13,13 @@ section:nth-of-type(4){
 section:nth-of-type(5){
   background: linear-gradient(90deg, black 33%, yellow 33%, yellow 67%, red 67%);
 }
-section:last-of-type{
+section:nth-of-type(6){
   background: linear-gradient(90deg, rgb(5,5,72) 33%, white 33%, white 67%, red 67%);
+}
+section:last-of-type{
+  background: red;
+  background-image: url(./star-removebg-preview.png), url(./star-removebg-preview.png), url(./star-removebg-preview.png), url(./star-removebg-preview.png), url(./star-removebg-preview.png);
+  background-size: 100px, 30px, 30px, 30px, 30px;
+  background-repeat: no-repeat;
+  background-position: 20px 40px, 120px 15px, 160px 50px, 165px 100px, 130px 140px;
 }
