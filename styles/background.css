@@ -1,0 +1,30 @@
+body>:first-child{
+  background-image: url('../tower.webp');
+  background-size: contain;
+}
+body>:nth-child(2){
+  background-image: url(../styles/hexagon.png);
+  background-size: 100px; 
+  background-repeat: no-repeat;
+}
+body>:nth-child(3){
+  background-image: url(../styles/hex3.png),url(../styles/hexagon.png), url(../styles/triangle.png), linear-gradient(to left, crimson 20%, violet 20%);
+  background-size: 100px, 50px, 30px, 20px;
+  background-repeat: repeat-y, repeat-x, no-repeat, repeat;
+  background-position: top left, center, bottom right;
+}
+body>:nth-child(4){
+  background-image: url(../styles/triangle.png),  url(../styles/triangle.png),  url(../styles/triangle.png),  url(../styles/triangle.png);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position:20px 30px, 50px 100px, 100px 150px, 200px 200px ;
+  /* the first value is for the y axis an dthe second value is for the x axis */
+  
+}
+body>:nth-child(4){
+  background-image: url(../styles/trianglehut.png) url(../styles/trianglehut.png) url(../styles/trianglehut.png) url(../styles/trianglehut.png);
+  background-size: 100px, 40px;
+  background-repeat: no-repeat;
+  background-position:20px 30px, 50px 100px, 100px 30px, 130px 100px;
+}
+
